@@ -28,7 +28,7 @@ const Cart = () => {
 
 	const handleClickViewARObject = () => {
 		if (window.AndroidInterface) {
-			window.AndroidInterface.handleClickViewARObject("Visualização AR iniciada!");
+			window.AndroidInterface.onButtonClick("Visualização AR iniciada!");
 		}
 	};
 

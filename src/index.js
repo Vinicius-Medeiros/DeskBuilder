@@ -11,7 +11,7 @@ import App from "./App";
 import store from "./redux/store";
 
 window.AndroidInterface = {
-	handleClickViewARObject: (message) => {
+	onButtonClick: (message) => {
 		console.log(message);
 	},
 };
